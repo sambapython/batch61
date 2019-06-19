@@ -6,5 +6,6 @@ b=20
 c=30
 def customer_create():
 	print("customer created successfully!!")
-customer_create()
-print(f"x={x}, y={y}, z={z}")
+if __name__ == "__main__":
+	customer_create()
+	print(f"x={x}, y={y}, z={z}")
